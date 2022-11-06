@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    <script src="./javascript/javascript.js" defer></script>
+    <script src="https://kit.fontawesome.com/09ca86ed6f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="clearfix">
+        <div class="container" id="container">
+            <div class="interface" id="interface">
+                <div class="interfaceLogo">
+
+                </div>
+
+                <div class="sketchpadInfo" id="sketchpadInfo">
+                    <i class="fa-solid fa-square-info info-symbol"></i>
+                    <ul>
+                        <li>Welcome to Etch a Sketch</li>
+                        <li>Pick a color style you want to use.</li>
+                        <li>In the textfield input the size you <br>want the etchasketch to have.</li>
+                        <li>Press Start to generate the drawing grid <br>or reset to clear the grid.</li>
+                    </ul>
+                </div>
+                <div class="userInput" id="userInput">
+                    <h1>Input a number for the grid size.</h1>
+                    <input class="userInputSize" id="userInputSize">
+                    <button class="start-resetButton" id="start-resetButton" onclick="startReset()">Start |
+                        Reset</button>
+                </div>
+                <div class="colorChoice" id="colorChoice">
+                    <div class="colorChoice2" id="colorChoice2" onclick="colorChoiceBW()"></div>
+                    <div class="colorChoice3" id="colorChoice3" onclick="colorChoiceWR()"></div>
+                    <div class="colorChoice1" id="colorChoice1" onclick="colorChoiceWB()"></div>
+                    <div class="colorChoice4" id="colorChoice4" onclick="colorChoiceRN()"></div>
+                </div>
+            </div>
+            <div class="sketchpadArea" id="sketchpadArea">
+                <div class="sketchpadFrame" id="sketchpadFrame">
+                    <div class=" sketchpad" id="sketchpad">
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

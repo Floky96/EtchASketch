@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+
+.clearfix {
+  display: block;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: lightcyan;
+  float: left;
+}
+
+.interfaceLogo {
+  background-image: url(../img/pngaaa.com-4720944.png);
+  background-position: center;
+  background-size: cover;
+  height: 19.7vh;
+  width: 100%;
+  border-bottom: dashed 0.3vh red;
+}
+
+.interface {
+  height: 67vh;
+  width: 14%;
+  margin: 17.5vh 0 0 2.6%;
+  float: left;
+  background-color: white;
+  background-size: 16vh;
+  border: outset 0.3vh red;
+  border-radius: 5px;
+}
+.interface .sketchpadInfo {
+  border-bottom: 1px solid red;
+}
+.interface .sketchpadInfo .info-symbol {
+  margin: 1rem 0 0 1rem;
+}
+.interface ul {
+  padding: 0 0 1rem 2rem;
+}
+.interface ul li {
+  list-style-type: circle;
+}
+.interface h1 {
+  font-size: 1rem;
+  color: red;
+  margin-left: 1.5rem;
+  padding-top: 0.5rem;
+}
+.interface .userInput .userInputSize {
+  width: 3rem;
+  margin: 0 1rem 0 3.3rem;
+}
+.interface .userInput button:hover {
+  cursor: pointer;
+}
+.interface .colorChoice {
+  height: 8rem;
+  width: 8rem;
+  margin: 0.5rem 0 0 4rem;
+}
+.interface .colorChoice .colorChoice1 {
+  height: 3rem;
+  width: 3rem;
+  font-size: 3rem;
+  border-radius: 4000px;
+  float: left;
+  margin: 0.5rem;
+  background-image: url(../img/favpng_eraser-paper-clip-art.png);
+  background-position: center;
+  background-size: cover;
+}
+.interface .colorChoice .colorChoice1:hover {
+  cursor: pointer;
+}
+.interface .colorChoice .colorChoice2 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 4000px;
+  float: left;
+  margin: 0.5rem;
+  background-image: url(../img/favpng_charcoal-mineral-heat-of-combustion.png);
+  background-position: center;
+  background-size: auto;
+}
+.interface .colorChoice .colorChoice2:hover {
+  cursor: pointer;
+}
+.interface .colorChoice .colorChoice3 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 4000px;
+  float: left;
+  margin: 0.5rem;
+  background-image: url(../img/favpng_tomato-vegetable-clip-art.png);
+  background-position: center;
+  background-size: cover;
+}
+.interface .colorChoice .colorChoice3:hover {
+  cursor: pointer;
+}
+.interface .colorChoice .colorChoice4 {
+  height: 3rem;
+  width: 3rem;
+  float: left;
+  margin: 0.5rem;
+  font-size: 3rem;
+  background-image: url(../img/pngegg.png);
+  background-position: center;
+  background-size: cover;
+}
+.interface .colorChoice .colorChoice4:hover {
+  cursor: pointer;
+}
+
+.sketchpadArea {
+  max-height: 100vh;
+  max-width: 66%;
+  float: left;
+}
+.sketchpadArea .sketchpadFrame {
+  height: 40rem;
+  width: 60rem;
+  background-image: url("../img/etch-a-sketch.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 10rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.sketchpadArea .sketchpadFrame:hover {
+  cursor: crosshair;
+}
+.sketchpadArea .sketchpadFrame .sketchpad {
+  height: 80%;
+  width: 85%;
+  margin-top: 1.6%;
+  display: grid;
+}
+.sketchpadArea .sketchpadFrame .sketchpad .box {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=stylesheet.css.map */

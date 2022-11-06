@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+}
+
+.clearfix {
+    display: block;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: lightcyan;
+    float: left;
+}
+
+.interfaceLogo {
+    background-image: url(../img/pngaaa.com-4720944.png);
+    background-position: center;
+    background-size: cover;
+    height: 19.7vh;
+    width: 100%;
+    border-bottom: dashed .3vh red;
+}
+
+.interface {
+    height: 67vh;
+    width: 14%;
+    margin: 17.5vh 0 0 2.6%;
+    float: left;
+    background-color: white;
+    background-size: 16vh;
+    border: outset .3vh red;
+    border-radius: 5px;
+
+    .sketchpadInfo {
+        border-bottom: 1px solid red;
+
+        .info-symbol {
+            margin: 1rem 0 0 1rem;
+        }
+    }
+
+    ul {
+        padding: 0 0 1rem 2rem;
+
+        li {
+            list-style-type: circle;
+        }
+    }
+
+    h1 {
+        font-size: 1rem;
+        color: red;
+        margin-left: 1.5rem;
+        padding-top: .5rem;
+    }
+
+    .userInput {
+        .userInputSize {
+            width: 3rem;
+            margin: 0 1rem 0 3.3rem;
+        }
+
+        button {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .colorChoice {
+        height: 8rem;
+        width: 8rem;
+        margin: .5rem 0 0 4rem;
+
+        .colorChoice1 {
+            height: 3rem;
+            width: 3rem;
+            font-size: 3rem;
+            border-radius: 4000px;
+            float: left;
+            margin: .5rem;
+            background-image: url(../img/favpng_eraser-paper-clip-art.png);
+            background-position: center;
+            background-size: cover;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .colorChoice2 {
+            height: 3rem;
+            width: 3rem;
+            border-radius: 4000px;
+            float: left;
+            margin: .5rem;
+            background-image: url(../img/favpng_charcoal-mineral-heat-of-combustion.png);
+            background-position: center;
+            background-size: auto;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .colorChoice3 {
+            height: 3rem;
+            width: 3rem;
+            border-radius: 4000px;
+            float: left;
+            margin: .5rem;
+            background-image: url(../img/favpng_tomato-vegetable-clip-art.png);
+            background-position: center;
+            background-size: cover;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .colorChoice4 {
+            height: 3rem;
+            width: 3rem;
+            float: left;
+            margin: .5rem;
+            font-size: 3rem;
+            background-image: url(../img/pngegg.png);
+            background-position: center;
+            background-size: cover;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.sketchpadArea {
+    max-height: 100vh;
+    max-width: 66%;
+    float: left;
+
+    .sketchpadFrame {
+        height: 40rem;
+        width: 60rem;
+        background-image: url("../img/etch-a-sketch.png");
+        background-size: cover;
+        background-position: center;
+        margin-top: 10rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        &:hover {
+            cursor: crosshair;
+        }
+
+        .sketchpad {
+            height: 80%;
+            width: 85%;
+            margin-top: 1.6%;
+            display: grid;
+
+            .box {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
